@@ -5,3 +5,20 @@
 body {
   font-family: "Open Sans", sans-serif;
 }
+.welcome-header {
+  margin: 90px 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.welcome-header__title {
+  margin-bottom: 40px;
+  font-size: 24px;
+  font-weight: bold;
+}
+.welcome-header__text {
+  font-size: 16px;
+  width: 60%;
+  opacity: 0.6;
+}
